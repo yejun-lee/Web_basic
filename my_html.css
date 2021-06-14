@@ -1,0 +1,87 @@
+#directors, th, td{
+	background-color: #80d7c0;
+	border: 1px solid black; 
+	border-spacing: 2px;
+}
+
+th, td{
+	padding: 5px;
+}
+
+#list_num{
+	width: 30px;
+}
+
+#list_name{
+	width: 250px;
+}
+
+#directors {
+	width: 525;
+	text-align:center;
+}
+
+ol {
+	border-style: dotted;
+	background-color: #ff7547;
+	color: white;
+	font-size: 20px;
+}
+
+a:link, a:visited {
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:hover {
+	color: #ffdb47;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:active {
+	color: #ff0000;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+#List_CN:link, #List_CN:visited{
+	color: #000000;
+	background-color: transparent;
+	text-decoration: none;
+}
+#List_CN:hover {
+	color: #eb7c00;
+	background-color: transparent;
+	text-decoration: none;
+}
+#List_CN:active {
+	color: #ff3600;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+#div_CN{
+	border: 2px dashed white;
+	padding: 20px;
+	background-color: black;
+}
+
+#CN {
+	color: #f8f8f8
+}
+
+#CN:link, #CN:visited {
+	color: #f8f8f8;
+	background-color: transparent;
+	text-decoration: none;
+}
+#CN:hover {
+	color: #a0a0a0;
+	background-color: transparent;
+	text-decoration: none;
+}
+#CN:active {
+	color: #ffdb47;
+	background-color: transparent;
+	text-decoration: none;
+}
