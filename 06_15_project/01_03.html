@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <p id="alarm"></p>
+    <script>
+      function start_fnc() {
+        alert('함수 시작')
+      }
+      function ring_alert(a, b){
+        alert(a+b)
+      }
+
+      start_fnc()
+      ring_alert(3, 4)
+      document.getElementById('alarm').innerHTML = ring_alert(2, 3)
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

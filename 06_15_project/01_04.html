@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+      function start_fnc() {
+        alert('hello');
+      }
+      function Func_1() {
+        document.getElementById('div_1').innerHTML = '클릭되었습니다.';
+      }
+    </script>
+
+</head>
+<body>
+<button type="button" onclick='document.innerHTML = start_fnc()'>선택</button>
+<div id="div_1"
+     onmouseover="this.style.backgroundColor='orange'"
+     onmouseleave="this.style.backgroundColor='green'"
+     onmouseout="this.style.backgroundColor='white'"
+     onclick="this.style.backgroundColor='blue'; Func_1();" style="width:50%; color:white;
+     border: 2px solid black">
+    여기가 색깔이 변경됩니다.
+</div>
+</body>
+</html>
